@@ -1,177 +1,566 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfoilo</title>
+  </head>
 
-  <title>About Ashwani Kumar Shaw</title>
-  <meta charset="utf-8">
-  <meta name="google-site-verification" content="A-BinopyHtWnv1mmXnKUpngCbI_17uX0fkiOJsopbng" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/35097948" sizes="16x16">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-  <style>
-  html {
-  scroll-behavior: smooth;
-  }
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #399; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #333; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-   background-color: #333; /* Dark Blue */
-    color: #ffffff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #399 !important;
-  }
-  .image-cropper {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-5">
+            <img src="img/person1.jpg" alt="" />
+          </div>
+          <div class="col-lg-8 col-md-7">
+            <div class="d-flex flex-column">
+              <div class="p-5 bg-dark text-white">
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <h1 class="display-4">Ashwani Kumar Shaw</h1>
+                  <div class="d-none d-md-block">
+                    <a
+                      href="https://twitter.com/this_is_ashu"
+                      class="text-white"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.linkedin.com/in/ashwanikumarshaw/"
+                      class="text-white"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://www.instagram.com/ashwani_kumar_shaw/"
+                      class="text-white"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      href="https://github.com/ashwanikumarshaw"
+                      class="text-white"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
 
-img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
-}
-  </style>
-</head>
-<body>
+              <div class="p-4 bg-black">
+                Experienced Full Stack Web Developer
+              </div>
 
-<!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Ashwani</a>
+              <div>
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    class="port-item p-4 bg-primary"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
+                    <i class="fas fa-home fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-success"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Resume</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-warning"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
+                    <i class="fas fa-folder-open fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Work</span>
+                  </div>
+                  <div
+                    class="port-item p-4 bg-danger"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-envelope fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Contact</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- HOME -->
+      <div id="home" class="collapse show">
+        <div class="card card-body bg-primary text-white py-5">
+          <h2>Welcome To My Portfoilo</h2>
+          <!--p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!
+          </p-->
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>My Skills</h3>
+         
+          <hr />
+          <h5><span class="fontOne">Languages :</span></h5>
+          <p class="pl-4">
+            <ul>
+              <li>Java</li>
+              <li>Typescript</li>
+            </ul>
+          </p>
+
+          <h5><span class="fontOne">Technology/Framework :</span></h5>
+          <p class="pl-4">
+            <ul>
+              <li>Spring Boot</li>
+              <li> Maven</li>
+              <li> Hibernate</li>
+              <li> RabbitMQ</li>
+              <li>Angular</li>
+              <li> Juint</li>
+              <li>GitHub</li>
+              <li>Docker</li>
+              <li>Jenkins</li>
+            </ul>
+          </p>
+          <h5><span class="fontOne">Database Design : </span></h5>
+          <p class="pl-4">
+            <ul>
+              <li>MySQL</li>
+              <li>MongoDb</li>
+</ul>
+              </p>
+          <h5><span class="fontOne">Software : </span></h5>
+          <p class="pl-4">
+            <ul>
+              <li>Intellij</li>
+              <li> Git</li>
+              <li> GitHub</li>
+              <li> Eclipse</li>
+              <li> MySQL Workbench</li>
+              <li> Rally</li>
+            </ul>
+          </p>
+          <h5><span class="fontOne">Design and Graphics : </span></h5>
+          <p class="pl-4">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>BootStrap</li>
+              <li> Photoshop</li>
+              <li>Dreamweaver</li>
+            </ul>
+          </p>
+          <h5>
+            <span class="fontOne">Project Management : </span>
+          </h5>
+          <p class="pl-4">
+          <ul>
+              <li>Agile</li>
+              <li>Scrum</li>
+          </ul>
+        </p>
+
+          <h5 id="project"><span class="fontOne"> Multilingual: </span></h5>
+          <p class="pl-4">English, Hindi</p>
+        </div>
+      </div>
+
+      <!-- RESUME -->
+      <div id="resume" class="collapse">
+        <div class="card card-body bg-success text-white py-5">
+          <h2>My Resume</h2>
+          <!--p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!
+          </p-->
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Where Have I Studied?</h3>
+          <!--p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            similique saepe inventore rem vitae esse.
+          </p-->
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title"> Secondary Exam </h4>
+                <p class="card-text">
+                   (C.B.S.EBoard)
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                 Kendriya Vidyalaya, Chittaranjan
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Score: 8.8/10.0 CGPA</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2013 - 2014</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Higher Secondary Exam</h4>
+                <p class="card-text">
+                 (C.B.S.EBoard)
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Kendriya Vidyalaya, Chittaranjan
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Score: 72.8 %</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2015 - 2016</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Bachelor’s Degree </h4>
+                <p class="card-text">
+                  Computer Science Engineering
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  University of Engineering and Management, Kolkata
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Score: 8.48/10.0 GPA</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2016 - 2020</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="card card-body py-5">
+          <h3>Where Have I Worked?</h3>
+          <!--p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            similique saepe inventore rem vitae esse.
+          </p-->
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Cognizant</h4>
+                <p class="card-text">
+                  Responsible for designing, implementing, and maintaining Java-based software and applications, contributing to all stages of the software development lifecycle.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Associate
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">Full Stack Engineer</p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2020 - 2023</h6>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK -->
+      <div id="work" class="collapse">
+        <div class="card card-body bg-warning text-white py-5">
+          <h2>My Work</h2>
+          <!--p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!
+          </p-->
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>What Have I Built?</h3>
+          <p>
+            Below are some of my projects:
+          </p>
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/TinyUrl"
+                
+              >
+                <img
+                  src="https://i.pinimg.com/564x/a9/19/9d/a9199dd00c40649358d1f6a1fef50565.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/StockMarket_CompanyRegistration"
+                
+              >
+                <img
+                  src="https://i.pinimg.com/564x/d0/ce/e6/d0cee6b414fcf488f07711e3c17827a2.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/UserManagement"
+               
+              >
+                <img
+                  src="https://i.pinimg.com/564x/ac/b9/3c/acb93ce28df132e59cdec3129a1da5a8.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/Return-Order-Management-System"
+                
+              >
+                <img
+                  src="https://i.pinimg.com/564x/89/3d/65/893d65a17598077acea0f1f31da88d62.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/ReturnOrderManagementSystem-Portal"
+             
+              >
+                <img
+                  src="https://i.pinimg.com/564x/c8/92/37/c89237a3d744dabcf4e2309c2be4de74.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+           
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/IIHT/tree/main/twitterapp"
+               
+              >
+                <img
+                  src="https://i.pinimg.com/564x/64/1c/ec/641cecefc3e502d1f3b89ac352b5694b.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+             <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/YourAvtar"
+             
+              >
+                <img
+                  src="https://i.pinimg.com/564x/1b/97/49/1b974944f69fc1187018739f00a2af30.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/Twitter.bot"
+               
+              >
+                <img
+                  src="https://i.pinimg.com/564x/73/90/88/7390887074d7f17e9fe29a78887e482b.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/DigitaClock"
+              >
+                <img
+                  src="https://i.pinimg.com/564x/3f/9f/06/3f9f0600d309624f04b1a2c37570f996.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+             <div class="col-md-3">
+              <a
+                href="img/qrcode_github.com.png"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="img/qrcode_github.com.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+             <!--div class="col-md-3">
+              <a
+                href="https://github.com/ashwanikumarshaw/Twitter.bot"
+                data-toggle="lightbox"
+              >
+                <img
+                  src="https://i.pinimg.com/564x/3f/9f/06/3f9f0600d309624f04b1a2c37570f996.jpg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+            </div-->
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="collapse">
+        <div class="card card-body bg-danger text-white py-5">
+          <h2>Contact</h2>
+          
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>Get In Touch</h3>
+         
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control bg-dark text-white"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                ></textarea>
+              </div>
+            </div>
+
+            <input
+              type="submit"
+              value="Submit"
+              class="btn btn-danger btn-block btn-lg"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer id="main-footer" class="p-4 bg-dark text-white">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="img/ashwani_kumar_shaw_cv_javaDev.pdf" class="btn btn-outline-light">
+              <i class="fas fa-cloud"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </footer>
+      <div class="font-weight-light bg-dark text-white text-center">
+        <div class="row">
+          <div class="col-md-12" style="margin: 10px">
+            <p>
+              Copyright &copy;
+              <span id="year"></span>
+              <span id="Companyf">Email: <a href="https://mail.google.com/">ashwanikumar11shaw@gmail.com</a></span>
+
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#WHO">WHO</a></li>
-        <li><a href="#WHAT">WHAT</a></li>
-        <li><a href="#WHERE">WHERE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center" id="WHO">
-  <h3 class="margin">Who Am I?</h3>
-  <img src="https://avatars0.githubusercontent.com/u/35097948" class="img-responsive img-circle margin " style="display:inline" alt="Bird" width="350" height="350">
-  <h3>I'm an ENGINEER</h3>
-</div>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center" id="WHAT">
-  <h3 class="margin">What Am I?</h3>
-  <p>“ My name is Ashwani Kumar Shaw ” 
-    <br /></p>
-    <p>" I am a Full stack web developer proficient in technologies like PHP, HTML, CSS, JavaScript and Bootstrap. "
+    <script>
+      $(".port-item").click(function () {
+        $(".collapse").collapse("hide");
+      });
 
-</p><p>
-" My aim is to deliver excellent work, provide excellent solutions and help my clients grow their business. "
-  </p>
-<div class="container-fluid">
-
-   <h4 class="margin">MY TECHNICAL SKILLS < INCLUDE ></h4>
-    <div class="progress">
-    <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
-      85% HTML, CSS
-    </div>
-  </div>
-  <div class="progress">
-    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-      70% SQL
-    </div>
-  </div>
- 
-  <div class="progress">
-    <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-      75% C, C++
-    </div>
-  </div>
-  <div class="progress">
-    <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-      70% PYTHON, JAVA,PHP
-    </div>
-  </div>
-  </div>
-  <p> You Can Check Some Of My Project </p>
-  <a href="https://github.com/ashwanikumarshaw" class="btn btn-default btn-lg">
-     <i class="fa fa-github" style="font-size:28px"></i> GitHub
-  </a>
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center" id="WHERE">    
-  <h3 class="margin">Where To Find Me?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-    
-      <p>Twitter ::
-     <a href="https://twitter.com/this_is_ashu/"> @this_is_ashu</p>
-     <img src="https://scontent.fccu19-1.fna.fbcdn.net/v/t1.0-9/90556217_1638368009639052_8857398698196336640_o.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=waRdQ7xC6nMAX_DUi_T&_nc_ht=scontent.fccu19-1.fna&oh=594cebae5efcffa6c5ac6e0c48e2e6c1&oe=5F943518" class="img-responsive margin" style="width:100%" alt="Image">
-     </a>
-    </div> 
-    <div class="col-sm-4"> 
-    
-      <p>Linkedin ::
-     <a href="https://www.linkedin.com/in/ashwani-kumar-shaw-55465b176/"> Ashwani Kumar Shaw</p>
-      <img src="https://avatars0.githubusercontent.com/u/35097948" class="img-responsive margin" style="width:100%" alt="Image"></a>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Instagram ::
-      <a href="https://www.instagram.com/Ashwani_kumar_shaw/"> @ashwani_kumar_shaw</p>
-        <img src="https://scontent.fccu19-1.fna.fbcdn.net/v/t1.0-9/67793672_1430534740422381_8134626663729201152_o.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=bH7aOy-csXEAX-avRDY&_nc_ht=scontent.fccu19-1.fna&oh=cdaf1cf14fc210cd2e05a116eea6ca76&oe=5F93BBC9" class="img-responsive margin" style="width:100%" alt="Image"></a>
-    </div>
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
-  <p>Email: <a href="https://mail.google.com/">ashwanikumar11shaw@gmail.com</a></p> 
-</footer>
-
-</body>
+      $(document).on("click", '[data-toggle="lightbox"]', function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
 </html>
